@@ -1,0 +1,28 @@
+
+<div class="one">
+    <div align="center">
+    <br><br><br><br><br>
+<form [formGroup] ="form" (ngSubmit)="func()">
+    <label class="two">Login</label> 
+    <div><br>
+    <label>Username:</label>&nbsp;
+    <input type="text" placeholder="enter username"
+    formControlName="username"/>
+    </div>
+<br>
+    <div>
+        <label>Password:</label> &nbsp;
+        <input type="text" placeholder="enter Password"
+        formControlName="password"/>
+     </div>
+    
+     <br>
+     <div>
+         <button type="submit" class="btn btn-primary">
+         login</button>&nbsp;&nbsp;&nbsp;&nbsp;
+         <button type="reset" class="btn btn-danger">Clear</button>   
+     </div>
+    </form>
+</div>
+
+</div>
